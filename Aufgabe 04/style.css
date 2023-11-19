@@ -1,0 +1,67 @@
+html {
+    background-image: url(Winter.jpeg);
+    background-size: cover;
+}
+
+#intro1 {
+    position: absolute;
+    top: 200px;
+    left: 30px;
+    width: 300px;
+    height: 500px; }
+
+#intro2 {
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    width: 300px;
+    height: 500px;}
+
+#intro3 {
+    position: absolute;
+    top: 240px;
+    left: 30px;
+    width: 300px;
+    height: 500px;}
+#middle1 {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 300px;
+    height: 500px; }
+
+#middle2 {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 300px;
+    height: 500px; }
+
+#middle3 {
+    position: absolute;
+    top: 250px;
+    left: 500px;
+    width: 300px;
+    height: 500px; }
+
+#outro1 { 
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    width: 300px;
+    height: 500px; }
+
+#outro2 { 
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    width: 300px;
+    height: 500px; }
+
+#outro3 { 
+    position: absolute;
+    top: 250px;
+    left: 1000px;
+    width: 300px;
+    height: 500px; }
+
