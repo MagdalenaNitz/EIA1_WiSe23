@@ -32,6 +32,10 @@ body {
         background-color: rgba(227, 227, 9, 0.419);
     }
 
-
+    @media only screen and (max-width: 768px) {
+        /*For mobile phones: */ }
+        [class*="parent"] {
+        width: 100%; 
+        }
 
    
