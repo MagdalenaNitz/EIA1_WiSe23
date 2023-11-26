@@ -1,4 +1,4 @@
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 1279px) {
     /*For mobile phones: */ }
 
 body {
@@ -32,7 +32,7 @@ body {
         background-color: rgba(227, 227, 9, 0.419);
     }
     
-    @media  screen and  (min-width: 1920px){
+    @media  screen and  (min-width: 1280px){
         }   
         [class*="parent"] {
         width: 100%
