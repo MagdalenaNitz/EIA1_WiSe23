@@ -7,14 +7,6 @@ stories =  ["Welchen Film möchtest du schauen? 'The Marvels' (a) oder 'Die Trib
     ] 
 let state = 0;
 
-function promptersatz (story) {
-    return prompt (story)
-}
-
-let myMovie = promptersatz (stories [0]);
-
-console.log (myMovie)
-
 const input = document.querySelector (".inputForm__field")
 const output = document.getElementById ("output");
 
