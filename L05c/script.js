@@ -40,6 +40,7 @@ input.addEventListener ("keydown", function (event){
     }
 }
    }
+   
 });    
     
 function price  ( Film, Popcorn) {
