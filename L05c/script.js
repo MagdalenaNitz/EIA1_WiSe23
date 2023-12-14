@@ -17,7 +17,7 @@ input.addEventListener ("keydown", function (event){
         if (input.value == "a" || input.value == "b") {
             output.innerHTML = stories [1];
             state = 1; //move to the next state for asking about the snack
-            output.style.color = '';
+            output.style.color = 'orange';
         } 
     else { prompt
         output.innerHTML = stories [2];
@@ -46,6 +46,7 @@ function price  ( Film, Popcorn) {
     let price = Film + Popcorn;
     return price;
 }
+
 console.log ("price: " + price (10, 5)+ " Euro");
  
 
