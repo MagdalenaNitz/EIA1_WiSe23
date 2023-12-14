@@ -6,7 +6,7 @@ stories =  ["Welchen Film möchtest du schauen? 'The Marvels' (a) oder 'Die Trib
             " Keine korrekte Eingabe. Wähle 'süßes' oder 'salziges'"
     ] 
 let state = 0;
-             
+
 function promptersatz (story) {
     return prompt (story)
 }

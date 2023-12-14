@@ -1,0 +1,47 @@
+body {
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    height: 95vh;
+    background-color: rgba(14, 14, 14, 0.844);  /*Hintergrundfarbe anpassen*/ 
+}
+
+.parent {
+   width: 95vw; /* 100% der Bildschirmbreite */
+    height: 95vh; /* 100% der Bildschirmhöhe */
+    border: 5px solid rgb(13, 142, 138); /* Grüner Rand mit 5px Breite */
+    border-radius: 15px; /* Abgerundete Ecken mit 15px Radius */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2vh; 
+    
+}
+
+#output {
+    position: fixed;
+    top: 250px;
+    left: 250px;
+    font-size: 24px;
+    font-family:'Arial', Helvetica, sans-serif;
+    color: rgb(217, 244, 244);
+    
+}
+
+.inputForm__label {
+    position: fixed;
+    top: 470px;
+    left: 250px;
+    font-size: 20px;
+    font-family:'Arial', Helvetica, sans-serif;
+    color:rgb(13, 142, 138);
+}
+
+.inputForm__field {
+    position: fixed;
+    top: 500px;
+    left: 250px; 
+    font-size: 24px;
+    font-family:'Arial', Helvetica, sans-serif;
+    color:rgb(13, 142, 138);
+}
