@@ -17,21 +17,26 @@ input.addEventListener ("keydown", function (event){
         if (input.value == "a" || input.value == "b") {
             output.innerHTML = stories [1];
             state = 1; //move to the next state for asking about the snack
+            output.style.color = '';
         } 
     else { prompt
         output.innerHTML = stories [2];
+        output.style.color = 'red';
     }
 } 
     else if (state == 1) {
         // asking about the snack
      if (input.value == "Süßes" || input.value == "süßes") {
         output.innerHTML = stories [3];
+        output.style.color = 'green';
     }
     else if (input.value == "Salziges" || input.value == "salziges") { 
         output.innerHTML = stories [4];
+        output.style.color = 'blue';
     }
     else { prompt
         output.innerHTML = stories [5];
+        output.style.color = 'red';
     }
 }
    }
