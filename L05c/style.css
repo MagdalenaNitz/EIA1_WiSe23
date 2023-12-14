@@ -30,7 +30,7 @@ body {
 
 .inputForm__label {
     position: fixed;
-    top: 470px;
+    top: 490px;
     left: 250px;
     font-size: 20px;
     font-family:'Arial', Helvetica, sans-serif;
@@ -39,7 +39,7 @@ body {
 
 .inputForm__field {
     position: fixed;
-    top: 500px;
+    top: 540px;
     left: 250px; 
     font-size: 24px;
     font-family:'Arial', Helvetica, sans-serif;
